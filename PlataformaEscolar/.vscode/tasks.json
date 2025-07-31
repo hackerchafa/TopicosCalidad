@@ -1,0 +1,14 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "Restaurar paquetes NuGet para pruebas",
+			"command": "dotnet restore c:\\Users\\Lenovo\\EscolarWebApi\\TopicosCalidad\\PlataformaEscolar\\PlataformaEscolar.Tests\\PlataformaEscolar.Tests.csproj",
+			"group": "build",
+			"problemMatcher": [
+				"$msCompile"
+			]
+		}
+	]
+}

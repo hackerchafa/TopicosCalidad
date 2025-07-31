@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="a22443e6-16b0-4491-af3c-be5f55dec99d" name="Lenovo@DESKTOP-E105SJN 2025-07-29 19:14:07" runUser="DESKTOP-E105SJN\Lenovo" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2025-07-29T19:14:07.2946721-06:00" queuing="2025-07-29T19:14:07.2946724-06:00" start="2025-07-29T19:14:03.2666937-06:00" finish="2025-07-29T19:14:10.6294233-06:00" />
+  <TestSettings name="default" id="3e410279-b188-4217-96e3-9e2e2b02e1a6">
+    <Deployment runDeploymentRoot="Lenovo_DESKTOP-E105SJN_2025-07-29_19_14_07" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="93f5bdcc-8300-4724-9727-f0f532c056e0" testId="dc644c4a-3b58-14ac-102c-934031a8cf18" testName="PlataformaEscolar.Tests.GradosGruposClasesHorariosTests.CrearClaseHorario_ReturnsOk" computerName="DESKTOP-E105SJN" duration="00:00:01.0324743" startTime="2025-07-29T19:14:10.5436313-06:00" endTime="2025-07-29T19:14:10.5436316-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="93f5bdcc-8300-4724-9727-f0f532c056e0" />
+    <UnitTestResult executionId="5ebf6230-7992-4e07-bdee-2a2419c67a4e" testId="4cc28d1d-fc94-d285-f60d-44d21cc28065" testName="PlataformaEscolar.Tests.GradosGruposClasesHorariosTests.CrearGradoGrupo_ReturnsOk" computerName="DESKTOP-E105SJN" duration="00:00:01.4843036" startTime="2025-07-29T19:14:07.1801420-06:00" endTime="2025-07-29T19:14:07.1801837-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5ebf6230-7992-4e07-bdee-2a2419c67a4e" />
+    <UnitTestResult executionId="55eadbca-0ef2-4bda-b4c5-10d024d0b4ac" testId="fe72bc9c-3450-1875-1d56-dd6a1332aa27" testName="PlataformaEscolar.Tests.GradosGruposClasesHorariosTests.ObtenerClasesHorarios_ReturnsOk" computerName="DESKTOP-E105SJN" duration="00:00:01.2380857" startTime="2025-07-29T19:14:08.4201727-06:00" endTime="2025-07-29T19:14:08.4201731-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="55eadbca-0ef2-4bda-b4c5-10d024d0b4ac" />
+    <UnitTestResult executionId="fa2d4967-b954-43cd-828a-70a1d29bbbfd" testId="683bb4c8-f673-c99c-e3fd-94f1a3bbd267" testName="PlataformaEscolar.Tests.GradosGruposClasesHorariosTests.ObtenerGradosGrupos_ReturnsOk" computerName="DESKTOP-E105SJN" duration="00:00:01.0907107" startTime="2025-07-29T19:14:09.5109575-06:00" endTime="2025-07-29T19:14:09.5109578-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fa2d4967-b954-43cd-828a-70a1d29bbbfd" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="PlataformaEscolar.Tests.GradosGruposClasesHorariosTests.ObtenerGradosGrupos_ReturnsOk" storage="c:\users\lenovo\escolarwebapi\topicoscalidad\casoprueba-gradosgrupos-claseshorarios\bin\debug\net8.0\gradosgruposclaseshorariostests.dll" id="683bb4c8-f673-c99c-e3fd-94f1a3bbd267">
+      <Execution id="fa2d4967-b954-43cd-828a-70a1d29bbbfd" />
+      <TestMethod codeBase="C:\Users\Lenovo\EscolarWebApi\TopicosCalidad\CasoPrueba-GradosGrupos-ClasesHorarios\bin\Debug\net8.0\GradosGruposClasesHorariosTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="PlataformaEscolar.Tests.GradosGruposClasesHorariosTests" name="ObtenerGradosGrupos_ReturnsOk" />
+    </UnitTest>
+    <UnitTest name="PlataformaEscolar.Tests.GradosGruposClasesHorariosTests.CrearGradoGrupo_ReturnsOk" storage="c:\users\lenovo\escolarwebapi\topicoscalidad\casoprueba-gradosgrupos-claseshorarios\bin\debug\net8.0\gradosgruposclaseshorariostests.dll" id="4cc28d1d-fc94-d285-f60d-44d21cc28065">
+      <Execution id="5ebf6230-7992-4e07-bdee-2a2419c67a4e" />
+      <TestMethod codeBase="C:\Users\Lenovo\EscolarWebApi\TopicosCalidad\CasoPrueba-GradosGrupos-ClasesHorarios\bin\Debug\net8.0\GradosGruposClasesHorariosTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="PlataformaEscolar.Tests.GradosGruposClasesHorariosTests" name="CrearGradoGrupo_ReturnsOk" />
+    </UnitTest>
+    <UnitTest name="PlataformaEscolar.Tests.GradosGruposClasesHorariosTests.ObtenerClasesHorarios_ReturnsOk" storage="c:\users\lenovo\escolarwebapi\topicoscalidad\casoprueba-gradosgrupos-claseshorarios\bin\debug\net8.0\gradosgruposclaseshorariostests.dll" id="fe72bc9c-3450-1875-1d56-dd6a1332aa27">
+      <Execution id="55eadbca-0ef2-4bda-b4c5-10d024d0b4ac" />
+      <TestMethod codeBase="C:\Users\Lenovo\EscolarWebApi\TopicosCalidad\CasoPrueba-GradosGrupos-ClasesHorarios\bin\Debug\net8.0\GradosGruposClasesHorariosTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="PlataformaEscolar.Tests.GradosGruposClasesHorariosTests" name="ObtenerClasesHorarios_ReturnsOk" />
+    </UnitTest>
+    <UnitTest name="PlataformaEscolar.Tests.GradosGruposClasesHorariosTests.CrearClaseHorario_ReturnsOk" storage="c:\users\lenovo\escolarwebapi\topicoscalidad\casoprueba-gradosgrupos-claseshorarios\bin\debug\net8.0\gradosgruposclaseshorariostests.dll" id="dc644c4a-3b58-14ac-102c-934031a8cf18">
+      <Execution id="93f5bdcc-8300-4724-9727-f0f532c056e0" />
+      <TestMethod codeBase="C:\Users\Lenovo\EscolarWebApi\TopicosCalidad\CasoPrueba-GradosGrupos-ClasesHorarios\bin\Debug\net8.0\GradosGruposClasesHorariosTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="PlataformaEscolar.Tests.GradosGruposClasesHorariosTests" name="CrearClaseHorario_ReturnsOk" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="dc644c4a-3b58-14ac-102c-934031a8cf18" executionId="93f5bdcc-8300-4724-9727-f0f532c056e0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4cc28d1d-fc94-d285-f60d-44d21cc28065" executionId="5ebf6230-7992-4e07-bdee-2a2419c67a4e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fe72bc9c-3450-1875-1d56-dd6a1332aa27" executionId="55eadbca-0ef2-4bda-b4c5-10d024d0b4ac" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="683bb4c8-f673-c99c-e3fd-94f1a3bbd267" executionId="fa2d4967-b954-43cd-828a-70a1d29bbbfd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Resultados sin formato de lista" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Todos los resultados cargados" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="4" executed="4" passed="4" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.8.2+699d445a1a (64-bit .NET 8.0.17)&#xD;
+[xUnit.net 00:00:01.45]   Discovering: GradosGruposClasesHorariosTests&#xD;
+[xUnit.net 00:00:01.50]   Discovered:  GradosGruposClasesHorariosTests&#xD;
+[xUnit.net 00:00:01.50]   Starting:    GradosGruposClasesHorariosTests&#xD;
+[xUnit.net 00:00:06.43]   Finished:    GradosGruposClasesHorariosTests&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>
