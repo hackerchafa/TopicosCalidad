@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+  <testsuite name="PlataformaEscolar.Tests.ProfesoresAdministradoresTests" hostname="DESKTOP-E105SJN" package="not available" id="0" tests="4" failures="1" errors="0" skipped="1" time="5.512" timestamp="2025-08-06T05:10:08">
+    <properties />
+    <testcase name="CrearProfesor_ReturnsOk" classname="PlataformaEscolar.Tests.ProfesoresAdministradoresTests" time="1.448" status="1" />
+    <testcase name="CrearAdministrador_ReturnsOk" classname="PlataformaEscolar.Tests.ProfesoresAdministradoresTests" time="0.001">
+      <skipped />
+    </testcase>
+    <testcase name="ObtenerListaAdministradores_ReturnsOk" classname="PlataformaEscolar.Tests.ProfesoresAdministradoresTests" time="2.919" status="0">
+      <failure message="Assert.Equal() Failure&#xD;&#xA;Expected: OK&#xD;&#xA;Actual:   Unauthorized" type="not specified"><![CDATA[   at PlataformaEscolar.Tests.ProfesoresAdministradoresTests.ObtenerListaAdministradores_ReturnsOk() in C:\Users\Lenovo\EscolarWebApi\TopicosCalidad\CasoPrueba-Profesores-Administradores\ProfesoresAdministradoresTests.cs:line 55
+--- End of stack trace from previous location ---]]></failure>
+    </testcase>
+    <testcase name="ObtenerListaProfesores_ReturnsOk" classname="PlataformaEscolar.Tests.ProfesoresAdministradoresTests" time="1.145" status="1" />
+    <system-out />
+    <system-err />
+  </testsuite>
+</testsuites>
