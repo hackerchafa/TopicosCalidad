@@ -1,38 +1,38 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<TestRun id="13f8d848-d1d0-4c0e-8331-83e28630a580" name="Lenovo@DESKTOP-E105SJN 2025-07-29 19:13:53" runUser="DESKTOP-E105SJN\Lenovo" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
-  <Times creation="2025-07-29T19:13:53.7022809-06:00" queuing="2025-07-29T19:13:53.7022812-06:00" start="2025-07-29T19:13:49.6676761-06:00" finish="2025-07-29T19:13:56.7739670-06:00" />
-  <TestSettings name="default" id="628c4a4e-65cc-422f-b5d9-0948f4da0659">
-    <Deployment runDeploymentRoot="Lenovo_DESKTOP-E105SJN_2025-07-29_19_13_53" />
+<TestRun id="fc470121-820e-4395-a76a-43a1be32a9ef" name="Lenovo@DESKTOP-E105SJN 2025-08-05 23:07:00" runUser="DESKTOP-E105SJN\Lenovo" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2025-08-05T23:07:00.2709149-06:00" queuing="2025-08-05T23:07:00.2709151-06:00" start="2025-08-05T23:06:55.3527977-06:00" finish="2025-08-05T23:07:03.1119405-06:00" />
+  <TestSettings name="default" id="9195d5d8-20c0-48c1-893e-f92c501e73e1">
+    <Deployment runDeploymentRoot="Lenovo_DESKTOP-E105SJN_2025-08-05_23_07_00" />
   </TestSettings>
   <Results>
-    <UnitTestResult executionId="c2233aef-d32e-42fb-874e-e9d04c92b8d1" testId="e798b93f-0072-549e-2e89-70da5b54406d" testName="PlataformaEscolar.Tests.ComentarioControllerTests.ComentarAProfesor_ReturnsOk" computerName="DESKTOP-E105SJN" duration="00:00:04.1447782" startTime="2025-07-29T19:13:55.0244190-06:00" endTime="2025-07-29T19:13:55.0244195-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c2233aef-d32e-42fb-874e-e9d04c92b8d1" />
-    <UnitTestResult executionId="d41c8beb-c54b-40b4-8b2e-d19de04bb99b" testId="720c1a21-5591-515c-44c5-5c7e9909c8a9" testName="PlataformaEscolar.Tests.AuthControllerTests.Register_Alumno_ReturnsOk" computerName="DESKTOP-E105SJN" duration="00:00:02.7552743" startTime="2025-07-29T19:13:53.6448151-06:00" endTime="2025-07-29T19:13:53.6448513-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d41c8beb-c54b-40b4-8b2e-d19de04bb99b" />
-    <UnitTestResult executionId="2812f48f-02ef-4529-8265-fde3975e9d92" testId="61e10156-e1c6-ba42-e1b9-ed5c5210e0ad" testName="PlataformaEscolar.Tests.AuthControllerTests.Login_Alumno_ReturnsToken" computerName="DESKTOP-E105SJN" duration="00:00:00.9115996" startTime="2025-07-29T19:13:54.5584225-06:00" endTime="2025-07-29T19:13:54.5584231-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2812f48f-02ef-4529-8265-fde3975e9d92" />
-    <UnitTestResult executionId="4fe61d51-cc1b-4c11-a8bf-2b9933a30a93" testId="017a223c-fb8b-853c-03a2-b06578175949" testName="PlataformaEscolar.Tests.ComentarioControllerTests.ComentarAAlumno_ReturnsOk" computerName="DESKTOP-E105SJN" duration="00:00:01.6217902" startTime="2025-07-29T19:13:56.6464177-06:00" endTime="2025-07-29T19:13:56.6464179-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4fe61d51-cc1b-4c11-a8bf-2b9933a30a93" />
+    <UnitTestResult executionId="457d579b-4d48-44f9-95a2-e197a009af2f" testId="720c1a21-5591-515c-44c5-5c7e9909c8a9" testName="PlataformaEscolar.Tests.AuthControllerTests.Register_Alumno_ReturnsOk" computerName="DESKTOP-E105SJN" duration="00:00:03.2217285" startTime="2025-08-05T23:07:00.2079856-06:00" endTime="2025-08-05T23:07:00.2080232-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="457d579b-4d48-44f9-95a2-e197a009af2f" />
+    <UnitTestResult executionId="ccffc842-f633-4389-be32-1de3c48352fa" testId="017a223c-fb8b-853c-03a2-b06578175949" testName="PlataformaEscolar.Tests.ComentarioControllerTests.ComentarAAlumno_ReturnsOk" computerName="DESKTOP-E105SJN" duration="00:00:01.5202307" startTime="2025-08-05T23:07:02.9637732-06:00" endTime="2025-08-05T23:07:02.9637736-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ccffc842-f633-4389-be32-1de3c48352fa" />
+    <UnitTestResult executionId="01dc16f6-b50a-4076-8f19-424fd5fc5619" testId="61e10156-e1c6-ba42-e1b9-ed5c5210e0ad" testName="PlataformaEscolar.Tests.AuthControllerTests.Login_Alumno_ReturnsToken" computerName="DESKTOP-E105SJN" duration="00:00:00.7989680" startTime="2025-08-05T23:07:01.0087196-06:00" endTime="2025-08-05T23:07:01.0087199-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="01dc16f6-b50a-4076-8f19-424fd5fc5619" />
+    <UnitTestResult executionId="70fd357a-5173-4cfa-9ad9-fc76d5014b60" testId="e798b93f-0072-549e-2e89-70da5b54406d" testName="PlataformaEscolar.Tests.ComentarioControllerTests.ComentarAProfesor_ReturnsOk" computerName="DESKTOP-E105SJN" duration="00:00:04.4756192" startTime="2025-08-05T23:07:01.4431741-06:00" endTime="2025-08-05T23:07:01.4431744-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="70fd357a-5173-4cfa-9ad9-fc76d5014b60" />
   </Results>
   <TestDefinitions>
     <UnitTest name="PlataformaEscolar.Tests.ComentarioControllerTests.ComentarAProfesor_ReturnsOk" storage="c:\users\lenovo\escolarwebapi\topicoscalidad\casoprueba-auth-comentarios\bin\debug\net8.0\plataformaescolar.testsclean.dll" id="e798b93f-0072-549e-2e89-70da5b54406d">
-      <Execution id="c2233aef-d32e-42fb-874e-e9d04c92b8d1" />
+      <Execution id="70fd357a-5173-4cfa-9ad9-fc76d5014b60" />
       <TestMethod codeBase="C:\Users\Lenovo\EscolarWebApi\TopicosCalidad\CasoPrueba-Auth-Comentarios\bin\Debug\net8.0\PlataformaEscolar.TestsClean.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="PlataformaEscolar.Tests.ComentarioControllerTests" name="ComentarAProfesor_ReturnsOk" />
     </UnitTest>
     <UnitTest name="PlataformaEscolar.Tests.AuthControllerTests.Login_Alumno_ReturnsToken" storage="c:\users\lenovo\escolarwebapi\topicoscalidad\casoprueba-auth-comentarios\bin\debug\net8.0\plataformaescolar.testsclean.dll" id="61e10156-e1c6-ba42-e1b9-ed5c5210e0ad">
-      <Execution id="2812f48f-02ef-4529-8265-fde3975e9d92" />
+      <Execution id="01dc16f6-b50a-4076-8f19-424fd5fc5619" />
       <TestMethod codeBase="C:\Users\Lenovo\EscolarWebApi\TopicosCalidad\CasoPrueba-Auth-Comentarios\bin\Debug\net8.0\PlataformaEscolar.TestsClean.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="PlataformaEscolar.Tests.AuthControllerTests" name="Login_Alumno_ReturnsToken" />
     </UnitTest>
     <UnitTest name="PlataformaEscolar.Tests.ComentarioControllerTests.ComentarAAlumno_ReturnsOk" storage="c:\users\lenovo\escolarwebapi\topicoscalidad\casoprueba-auth-comentarios\bin\debug\net8.0\plataformaescolar.testsclean.dll" id="017a223c-fb8b-853c-03a2-b06578175949">
-      <Execution id="4fe61d51-cc1b-4c11-a8bf-2b9933a30a93" />
+      <Execution id="ccffc842-f633-4389-be32-1de3c48352fa" />
       <TestMethod codeBase="C:\Users\Lenovo\EscolarWebApi\TopicosCalidad\CasoPrueba-Auth-Comentarios\bin\Debug\net8.0\PlataformaEscolar.TestsClean.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="PlataformaEscolar.Tests.ComentarioControllerTests" name="ComentarAAlumno_ReturnsOk" />
     </UnitTest>
     <UnitTest name="PlataformaEscolar.Tests.AuthControllerTests.Register_Alumno_ReturnsOk" storage="c:\users\lenovo\escolarwebapi\topicoscalidad\casoprueba-auth-comentarios\bin\debug\net8.0\plataformaescolar.testsclean.dll" id="720c1a21-5591-515c-44c5-5c7e9909c8a9">
-      <Execution id="d41c8beb-c54b-40b4-8b2e-d19de04bb99b" />
+      <Execution id="457d579b-4d48-44f9-95a2-e197a009af2f" />
       <TestMethod codeBase="C:\Users\Lenovo\EscolarWebApi\TopicosCalidad\CasoPrueba-Auth-Comentarios\bin\Debug\net8.0\PlataformaEscolar.TestsClean.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="PlataformaEscolar.Tests.AuthControllerTests" name="Register_Alumno_ReturnsOk" />
     </UnitTest>
   </TestDefinitions>
   <TestEntries>
-    <TestEntry testId="e798b93f-0072-549e-2e89-70da5b54406d" executionId="c2233aef-d32e-42fb-874e-e9d04c92b8d1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="720c1a21-5591-515c-44c5-5c7e9909c8a9" executionId="d41c8beb-c54b-40b4-8b2e-d19de04bb99b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="61e10156-e1c6-ba42-e1b9-ed5c5210e0ad" executionId="2812f48f-02ef-4529-8265-fde3975e9d92" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="017a223c-fb8b-853c-03a2-b06578175949" executionId="4fe61d51-cc1b-4c11-a8bf-2b9933a30a93" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="720c1a21-5591-515c-44c5-5c7e9909c8a9" executionId="457d579b-4d48-44f9-95a2-e197a009af2f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="017a223c-fb8b-853c-03a2-b06578175949" executionId="ccffc842-f633-4389-be32-1de3c48352fa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="61e10156-e1c6-ba42-e1b9-ed5c5210e0ad" executionId="01dc16f6-b50a-4076-8f19-424fd5fc5619" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e798b93f-0072-549e-2e89-70da5b54406d" executionId="70fd357a-5173-4cfa-9ad9-fc76d5014b60" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
   </TestEntries>
   <TestLists>
     <TestList name="Resultados sin formato de lista" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
@@ -42,10 +42,10 @@
     <Counters total="4" executed="4" passed="4" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
     <Output>
       <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.8.2+699d445a1a (64-bit .NET 8.0.17)&#xD;
-[xUnit.net 00:00:00.17]   Discovering: PlataformaEscolar.TestsClean&#xD;
-[xUnit.net 00:00:00.22]   Discovered:  PlataformaEscolar.TestsClean&#xD;
-[xUnit.net 00:00:00.23]   Starting:    PlataformaEscolar.TestsClean&#xD;
-[xUnit.net 00:00:06.09]   Finished:    PlataformaEscolar.TestsClean&#xD;
+[xUnit.net 00:00:00.24]   Discovering: PlataformaEscolar.TestsClean&#xD;
+[xUnit.net 00:00:00.32]   Discovered:  PlataformaEscolar.TestsClean&#xD;
+[xUnit.net 00:00:00.33]   Starting:    PlataformaEscolar.TestsClean&#xD;
+[xUnit.net 00:00:06.45]   Finished:    PlataformaEscolar.TestsClean&#xD;
 </StdOut>
     </Output>
   </ResultSummary>

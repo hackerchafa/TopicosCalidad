@@ -92,10 +92,14 @@ namespace PlataformaEscolar.Tests
         [Fact]
         public async Task ComentarAProfesor_ReturnsOk()
         {
+            // Crear tanto el alumno como el profesor antes de crear el comentario
             await CrearAlumno();
+            await CrearProfesor();
+            
             var token = await GetTokenAlumno();
             int alumnoId = await GetAlumnoId();
             int profesorId = await GetProfesorId();
+            
             var client = new RestClient(BaseUrl);
             var request = new RestRequest("a-profesor", Method.Post);
             request.AddJsonBody(new {
@@ -144,10 +148,14 @@ namespace PlataformaEscolar.Tests
         [Fact]
         public async Task ComentarAAlumno_ReturnsOk()
         {
+            // Asegurar que tanto el alumno como el profesor existan
+            await CrearAlumno();
             await CrearProfesor();
+            
             var token = await GetTokenProfesor();
             int alumnoId = await GetAlumnoId();
             int profesorId = await GetProfesorId();
+            
             var client = new RestClient(BaseUrl);
             var request = new RestRequest("a-alumno", Method.Post);
             request.AddJsonBody(new {

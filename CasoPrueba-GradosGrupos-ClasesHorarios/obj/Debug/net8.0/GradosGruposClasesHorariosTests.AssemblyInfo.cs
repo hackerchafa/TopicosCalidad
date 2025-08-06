@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GradosGruposClasesHorariosTests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9ad3bdf9d5069edbde2a03d350cababd4ede08da")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f12098d2b3e1d17d010918dd1184c67b24a731b7")]
 [assembly: System.Reflection.AssemblyProductAttribute("GradosGruposClasesHorariosTests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GradosGruposClasesHorariosTests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

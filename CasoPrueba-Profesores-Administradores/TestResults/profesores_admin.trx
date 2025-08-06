@@ -1,11 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<TestRun id="871fca14-cd3b-4f45-bd7a-f3492edd217c" name="Lenovo@DESKTOP-E105SJN 2025-07-29 19:14:26" runUser="DESKTOP-E105SJN\Lenovo" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
-  <Times creation="2025-07-29T19:14:26.5048682-06:00" queuing="2025-07-29T19:14:26.5048686-06:00" start="2025-07-29T19:14:24.3209595-06:00" finish="2025-07-29T19:14:28.5453198-06:00" />
-  <TestSettings name="default" id="6efad18f-45ae-4154-9907-e08b1fc812a6">
-    <Deployment runDeploymentRoot="Lenovo_DESKTOP-E105SJN_2025-07-29_19_14_26" />
+<TestRun id="b6d753a1-caa0-4734-82fc-d9ca5be9e2ac" name="Lenovo@DESKTOP-E105SJN 2025-08-05 23:10:06" runUser="DESKTOP-E105SJN\Lenovo" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2025-08-05T23:10:06.7514206-06:00" queuing="2025-08-05T23:10:06.7514209-06:00" start="2025-08-05T23:10:01.2802245-06:00" finish="2025-08-05T23:10:09.3829325-06:00" />
+  <TestSettings name="default" id="e81d438c-7beb-40c6-ae0e-54132ae260d4">
+    <Deployment runDeploymentRoot="Lenovo_DESKTOP-E105SJN_2025-08-05_23_10_06" />
   </TestSettings>
   <Results>
-    <UnitTestResult executionId="9443c15b-6c8a-4f13-965b-60fafd77b637" testId="5e47317b-939d-b9e0-1576-7783d398fc61" testName="PlataformaEscolar.Tests.ProfesoresAdministradoresTests.ObtenerListaAdministradores_ReturnsOk" computerName="DESKTOP-E105SJN" duration="00:00:00.6040347" startTime="2025-07-29T19:14:26.2203852-06:00" endTime="2025-07-29T19:14:26.2204242-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9443c15b-6c8a-4f13-965b-60fafd77b637">
+    <UnitTestResult executionId="f93b5427-f08f-4259-bbd8-85b7de4a7dfe" testId="b0e5743e-f622-c3e8-3585-384238b29355" testName="PlataformaEscolar.Tests.ProfesoresAdministradoresTests.CrearProfesor_ReturnsOk" computerName="DESKTOP-E105SJN" duration="00:00:01.4477061" startTime="2025-08-05T23:10:08.1398676-06:00" endTime="2025-08-05T23:10:08.1398696-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f93b5427-f08f-4259-bbd8-85b7de4a7dfe" />
+    <UnitTestResult executionId="55349e5c-ee71-4fc6-bcda-c98c38112d09" testId="8968a8c6-f09f-3e4b-bc7a-a5ae7912823e" testName="PlataformaEscolar.Tests.ProfesoresAdministradoresTests.ObtenerListaProfesores_ReturnsOk" computerName="DESKTOP-E105SJN" duration="00:00:01.1445023" startTime="2025-08-05T23:10:09.2836888-06:00" endTime="2025-08-05T23:10:09.2836892-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="55349e5c-ee71-4fc6-bcda-c98c38112d09" />
+    <UnitTestResult executionId="634ebc42-c481-4f96-b1df-f1034dac61c4" testId="b1ad913a-baf3-0a12-f199-19491a622821" testName="PlataformaEscolar.Tests.ProfesoresAdministradoresTests.CrearAdministrador_ReturnsOk" computerName="DESKTOP-E105SJN" duration="00:00:00.0010000" startTime="2025-08-05T23:10:06.7277980-06:00" endTime="2025-08-05T23:10:06.7277990-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="634ebc42-c481-4f96-b1df-f1034dac61c4">
+      <Output>
+        <ErrorInfo>
+          <Message>Funcionalidad de administrador pendiente de implementación</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e92cc429-c2ff-4970-b948-6611eb94ac96" testId="5e47317b-939d-b9e0-1576-7783d398fc61" testName="PlataformaEscolar.Tests.ProfesoresAdministradoresTests.ObtenerListaAdministradores_ReturnsOk" computerName="DESKTOP-E105SJN" duration="00:00:02.9189242" startTime="2025-08-05T23:10:06.6844156-06:00" endTime="2025-08-05T23:10:06.6844532-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e92cc429-c2ff-4970-b948-6611eb94ac96">
       <Output>
         <ErrorInfo>
           <Message>Assert.Equal() Failure&#xD;
@@ -16,39 +25,30 @@ Actual:   Unauthorized</Message>
         </ErrorInfo>
       </Output>
     </UnitTestResult>
-    <UnitTestResult executionId="6ff27898-6c3e-4885-b810-b72cae4c927f" testId="b1ad913a-baf3-0a12-f199-19491a622821" testName="PlataformaEscolar.Tests.ProfesoresAdministradoresTests.CrearAdministrador_ReturnsOk" computerName="DESKTOP-E105SJN" duration="00:00:00.0010000" startTime="2025-07-29T19:14:26.2257527-06:00" endTime="2025-07-29T19:14:26.2257529-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6ff27898-6c3e-4885-b810-b72cae4c927f">
-      <Output>
-        <ErrorInfo>
-          <Message>Funcionalidad de administrador pendiente de implementación</Message>
-        </ErrorInfo>
-      </Output>
-    </UnitTestResult>
-    <UnitTestResult executionId="563f62a9-e515-4457-a9d6-103f6a17bed3" testId="8968a8c6-f09f-3e4b-bc7a-a5ae7912823e" testName="PlataformaEscolar.Tests.ProfesoresAdministradoresTests.ObtenerListaProfesores_ReturnsOk" computerName="DESKTOP-E105SJN" duration="00:00:01.0508766" startTime="2025-07-29T19:14:28.4055193-06:00" endTime="2025-07-29T19:14:28.4055200-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="563f62a9-e515-4457-a9d6-103f6a17bed3" />
-    <UnitTestResult executionId="dc566f2f-3906-44be-9d15-f569d4c405b1" testId="b0e5743e-f622-c3e8-3585-384238b29355" testName="PlataformaEscolar.Tests.ProfesoresAdministradoresTests.CrearProfesor_ReturnsOk" computerName="DESKTOP-E105SJN" duration="00:00:01.1383474" startTime="2025-07-29T19:14:27.3551301-06:00" endTime="2025-07-29T19:14:27.3551304-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dc566f2f-3906-44be-9d15-f569d4c405b1" />
   </Results>
   <TestDefinitions>
     <UnitTest name="PlataformaEscolar.Tests.ProfesoresAdministradoresTests.CrearProfesor_ReturnsOk" storage="c:\users\lenovo\escolarwebapi\topicoscalidad\casoprueba-profesores-administradores\bin\debug\net8.0\profesoresadministradorestests.dll" id="b0e5743e-f622-c3e8-3585-384238b29355">
-      <Execution id="dc566f2f-3906-44be-9d15-f569d4c405b1" />
+      <Execution id="f93b5427-f08f-4259-bbd8-85b7de4a7dfe" />
       <TestMethod codeBase="C:\Users\Lenovo\EscolarWebApi\TopicosCalidad\CasoPrueba-Profesores-Administradores\bin\Debug\net8.0\ProfesoresAdministradoresTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="PlataformaEscolar.Tests.ProfesoresAdministradoresTests" name="CrearProfesor_ReturnsOk" />
     </UnitTest>
     <UnitTest name="PlataformaEscolar.Tests.ProfesoresAdministradoresTests.CrearAdministrador_ReturnsOk" storage="c:\users\lenovo\escolarwebapi\topicoscalidad\casoprueba-profesores-administradores\bin\debug\net8.0\profesoresadministradorestests.dll" id="b1ad913a-baf3-0a12-f199-19491a622821">
-      <Execution id="6ff27898-6c3e-4885-b810-b72cae4c927f" />
+      <Execution id="634ebc42-c481-4f96-b1df-f1034dac61c4" />
       <TestMethod codeBase="C:\Users\Lenovo\EscolarWebApi\TopicosCalidad\CasoPrueba-Profesores-Administradores\bin\Debug\net8.0\ProfesoresAdministradoresTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="PlataformaEscolar.Tests.ProfesoresAdministradoresTests" name="CrearAdministrador_ReturnsOk" />
     </UnitTest>
     <UnitTest name="PlataformaEscolar.Tests.ProfesoresAdministradoresTests.ObtenerListaAdministradores_ReturnsOk" storage="c:\users\lenovo\escolarwebapi\topicoscalidad\casoprueba-profesores-administradores\bin\debug\net8.0\profesoresadministradorestests.dll" id="5e47317b-939d-b9e0-1576-7783d398fc61">
-      <Execution id="9443c15b-6c8a-4f13-965b-60fafd77b637" />
+      <Execution id="e92cc429-c2ff-4970-b948-6611eb94ac96" />
       <TestMethod codeBase="C:\Users\Lenovo\EscolarWebApi\TopicosCalidad\CasoPrueba-Profesores-Administradores\bin\Debug\net8.0\ProfesoresAdministradoresTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="PlataformaEscolar.Tests.ProfesoresAdministradoresTests" name="ObtenerListaAdministradores_ReturnsOk" />
     </UnitTest>
     <UnitTest name="PlataformaEscolar.Tests.ProfesoresAdministradoresTests.ObtenerListaProfesores_ReturnsOk" storage="c:\users\lenovo\escolarwebapi\topicoscalidad\casoprueba-profesores-administradores\bin\debug\net8.0\profesoresadministradorestests.dll" id="8968a8c6-f09f-3e4b-bc7a-a5ae7912823e">
-      <Execution id="563f62a9-e515-4457-a9d6-103f6a17bed3" />
+      <Execution id="55349e5c-ee71-4fc6-bcda-c98c38112d09" />
       <TestMethod codeBase="C:\Users\Lenovo\EscolarWebApi\TopicosCalidad\CasoPrueba-Profesores-Administradores\bin\Debug\net8.0\ProfesoresAdministradoresTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="PlataformaEscolar.Tests.ProfesoresAdministradoresTests" name="ObtenerListaProfesores_ReturnsOk" />
     </UnitTest>
   </TestDefinitions>
   <TestEntries>
-    <TestEntry testId="5e47317b-939d-b9e0-1576-7783d398fc61" executionId="9443c15b-6c8a-4f13-965b-60fafd77b637" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="b1ad913a-baf3-0a12-f199-19491a622821" executionId="6ff27898-6c3e-4885-b810-b72cae4c927f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="8968a8c6-f09f-3e4b-bc7a-a5ae7912823e" executionId="563f62a9-e515-4457-a9d6-103f6a17bed3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="b0e5743e-f622-c3e8-3585-384238b29355" executionId="dc566f2f-3906-44be-9d15-f569d4c405b1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b0e5743e-f622-c3e8-3585-384238b29355" executionId="f93b5427-f08f-4259-bbd8-85b7de4a7dfe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8968a8c6-f09f-3e4b-bc7a-a5ae7912823e" executionId="55349e5c-ee71-4fc6-bcda-c98c38112d09" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b1ad913a-baf3-0a12-f199-19491a622821" executionId="634ebc42-c481-4f96-b1df-f1034dac61c4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5e47317b-939d-b9e0-1576-7783d398fc61" executionId="e92cc429-c2ff-4970-b948-6611eb94ac96" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
   </TestEntries>
   <TestLists>
     <TestList name="Resultados sin formato de lista" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
@@ -58,26 +58,26 @@ Actual:   Unauthorized</Message>
     <Counters total="4" executed="3" passed="2" failed="1" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
     <Output>
       <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.8.2+699d445a1a (64-bit .NET 8.0.17)&#xD;
-[xUnit.net 00:00:00.50]   Discovering: ProfesoresAdministradoresTests&#xD;
-[xUnit.net 00:00:00.55]   Discovered:  ProfesoresAdministradoresTests&#xD;
-[xUnit.net 00:00:00.55]   Starting:    ProfesoresAdministradoresTests&#xD;
-[xUnit.net 00:00:01.23]       Assert.Equal() Failure&#xD;
-[xUnit.net 00:00:01.23]       Expected: OK&#xD;
-[xUnit.net 00:00:01.23]       Actual:   Unauthorized&#xD;
-[xUnit.net 00:00:01.23]       Stack Trace:&#xD;
-[xUnit.net 00:00:01.23]         C:\Users\Lenovo\EscolarWebApi\TopicosCalidad\CasoPrueba-Profesores-Administradores\ProfesoresAdministradoresTests.cs(55,0): at PlataformaEscolar.Tests.ProfesoresAdministradoresTests.ObtenerListaAdministradores_ReturnsOk()&#xD;
-[xUnit.net 00:00:01.24]         --- End of stack trace from previous location ---&#xD;
-[xUnit.net 00:00:01.24]       Funcionalidad de administrador pendiente de implementación&#xD;
+[xUnit.net 00:00:00.74]   Discovering: ProfesoresAdministradoresTests&#xD;
+[xUnit.net 00:00:00.86]   Discovered:  ProfesoresAdministradoresTests&#xD;
+[xUnit.net 00:00:00.87]   Starting:    ProfesoresAdministradoresTests&#xD;
+[xUnit.net 00:00:04.00]       Assert.Equal() Failure&#xD;
+[xUnit.net 00:00:04.00]       Expected: OK&#xD;
+[xUnit.net 00:00:04.00]       Actual:   Unauthorized&#xD;
+[xUnit.net 00:00:04.00]       Stack Trace:&#xD;
+[xUnit.net 00:00:04.00]         C:\Users\Lenovo\EscolarWebApi\TopicosCalidad\CasoPrueba-Profesores-Administradores\ProfesoresAdministradoresTests.cs(55,0): at PlataformaEscolar.Tests.ProfesoresAdministradoresTests.ObtenerListaAdministradores_ReturnsOk()&#xD;
+[xUnit.net 00:00:04.00]         --- End of stack trace from previous location ---&#xD;
+[xUnit.net 00:00:04.05]       Funcionalidad de administrador pendiente de implementación&#xD;
 Se ha omitido la prueba 'PlataformaEscolar.Tests.ProfesoresAdministradoresTests.CrearAdministrador_ReturnsOk' en la serie de pruebas.&#xD;
-[xUnit.net 00:00:03.44]   Finished:    ProfesoresAdministradoresTests&#xD;
+[xUnit.net 00:00:06.62]   Finished:    ProfesoresAdministradoresTests&#xD;
 </StdOut>
     </Output>
     <RunInfos>
-      <RunInfo computerName="DESKTOP-E105SJN" outcome="Error" timestamp="2025-07-29T19:14:26.2162807-06:00">
-        <Text>[xUnit.net 00:00:01.23]     PlataformaEscolar.Tests.ProfesoresAdministradoresTests.ObtenerListaAdministradores_ReturnsOk [FAIL]</Text>
+      <RunInfo computerName="DESKTOP-E105SJN" outcome="Error" timestamp="2025-08-05T23:10:06.6816591-06:00">
+        <Text>[xUnit.net 00:00:04.00]     PlataformaEscolar.Tests.ProfesoresAdministradoresTests.ObtenerListaAdministradores_ReturnsOk [FAIL]</Text>
       </RunInfo>
-      <RunInfo computerName="DESKTOP-E105SJN" outcome="Warning" timestamp="2025-07-29T19:14:26.2253090-06:00">
-        <Text>[xUnit.net 00:00:01.24]     PlataformaEscolar.Tests.ProfesoresAdministradoresTests.CrearAdministrador_ReturnsOk [SKIP]</Text>
+      <RunInfo computerName="DESKTOP-E105SJN" outcome="Warning" timestamp="2025-08-05T23:10:06.7714198-06:00">
+        <Text>[xUnit.net 00:00:04.05]     PlataformaEscolar.Tests.ProfesoresAdministradoresTests.CrearAdministrador_ReturnsOk [SKIP]</Text>
       </RunInfo>
     </RunInfos>
   </ResultSummary>

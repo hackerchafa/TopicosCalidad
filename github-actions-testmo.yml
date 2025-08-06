@@ -1,0 +1,78 @@
+# =========================================
+# GITHUB ACTIONS WORKFLOW PARA TESTMO
+# =========================================
+
+# Archivo: .github/workflows/tests-testmo.yml
+# Este workflow ejecuta las pruebas y las sube automáticamente a Testmo
+
+name: Tests con Testmo
+
+on:
+  push:
+    branches: [ master, main ]
+  pull_request:
+    branches: [ master, main ]
+  workflow_dispatch:
+
+jobs:
+  test-auth-comentarios:
+    runs-on: windows-latest
+    name: "Auth y Comentarios"
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: '8.0'
+    
+    - name: Restaurar dependencias
+      run: dotnet restore CasoPrueba-Auth-Comentarios/PlataformaEscolar.TestsClean.csproj
+    
+    - name: Ejecutar pruebas
+      run: |
+        cd CasoPrueba-Auth-Comentarios
+        dotnet test --logger "trx;LogFileName=auth_comentarios.trx" --no-restore
+    
+    - name: Subir a Testmo
+      uses: testmo-dev/github-action@v1
+      with:
+        instance: https://hector-hackerchafa.testmo.net
+        project-id: 1
+        name: "Auth-Comentarios"
+        source: "GitHub Actions"
+        results: "CasoPrueba-Auth-Comentarios/TestResults/auth_comentarios.trx"
+      env:
+        TESTMO_TOKEN: ${{ secrets.TESTMO_TOKEN }}
+
+  test-calificaciones-alumnos:
+    runs-on: windows-latest
+    name: "Calificaciones y Alumnos"
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: '8.0'
+    
+    - name: Restaurar dependencias
+      run: dotnet restore CasoPrueba-Calificaciones-Alumnos/CalificacionesAlumnosTests.csproj
+    
+    - name: Ejecutar pruebas
+      run: |
+        cd CasoPrueba-Calificaciones-Alumnos
+        dotnet test --logger "trx;LogFileName=calificaciones_alumnos.trx" --no-restore
+    
+    - name: Subir a Testmo
+      uses: testmo-dev/github-action@v1
+      with:
+        instance: https://hector-hackerchafa.testmo.net
+        project-id: 1
+        name: "Calificaciones-Alumnos"
+        source: "GitHub Actions"
+        results: "CasoPrueba-Calificaciones-Alumnos/TestResults/calificaciones_alumnos.trx"
+      env:
+        TESTMO_TOKEN: ${{ secrets.TESTMO_TOKEN }}

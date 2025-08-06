@@ -1,0 +1,155 @@
+name: Testmo Automation Tests
+
+on:
+  push:
+    branches: [ master, main ]
+  pull_request:
+    branches: [ master, main ]
+  workflow_dispatch:
+
+jobs:
+  test-auth-comentarios:
+    runs-on: windows-latest
+    name: "Caso 1: Auth y Comentarios"
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+    
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: '8.0'
+        
+    - name: Start API (si tienes una)
+      run: |
+        # Si necesitas iniciar tu API primero, descomenta estas líneas:
+        # cd PlataformaEscolar
+        # dotnet run &
+        # sleep 30
+        
+    - name: Restore dependencies
+      run: dotnet restore CasoPrueba-Auth-Comentarios/PlataformaEscolar.TestsClean.csproj
+    
+    - name: Run tests
+      run: |
+        cd CasoPrueba-Auth-Comentarios
+        dotnet test --logger "trx;LogFileName=auth_comentarios.trx" --no-restore --verbosity normal
+    
+    - name: Upload to Testmo
+      if: always()
+      run: |
+        # Instalar Testmo CLI
+        npm install -g @testmo/testmo-cli
+        
+        # Subir resultados
+        testmo automation:run:submit \
+          --instance "https://hector-hackerchafa.testmo.net" \
+          --project-id 1 \
+          --name "Auth-Comentarios-${{ github.run_number }}" \
+          --source "GitHub Actions" \
+          --results "CasoPrueba-Auth-Comentarios/TestResults/auth_comentarios.trx"
+      env:
+        TESTMO_TOKEN: ${{ secrets.TESTMO_TOKEN }}
+
+  test-calificaciones:
+    runs-on: windows-latest
+    name: "Caso 2: Calificaciones y Alumnos"
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+    
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: '8.0'
+        
+    - name: Restore dependencies
+      run: dotnet restore CasoPrueba-Calificaciones-Alumnos/CalificacionesAlumnosTests.csproj
+    
+    - name: Run tests
+      run: |
+        cd CasoPrueba-Calificaciones-Alumnos
+        dotnet test --logger "trx;LogFileName=calificaciones_alumnos.trx" --no-restore --verbosity normal
+    
+    - name: Upload to Testmo
+      if: always()
+      run: |
+        npm install -g @testmo/testmo-cli
+        testmo automation:run:submit \
+          --instance "https://hector-hackerchafa.testmo.net" \
+          --project-id 1 \
+          --name "Calificaciones-Alumnos-${{ github.run_number }}" \
+          --source "GitHub Actions" \
+          --results "CasoPrueba-Calificaciones-Alumnos/TestResults/calificaciones_alumnos.trx"
+      env:
+        TESTMO_TOKEN: ${{ secrets.TESTMO_TOKEN }}
+
+  test-grados-grupos:
+    runs-on: windows-latest
+    name: "Caso 3: Grados y Grupos"
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+    
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: '8.0'
+        
+    - name: Restore dependencies
+      run: dotnet restore CasoPrueba-GradosGrupos-ClasesHorarios/GradosGruposClasesHorariosTests.csproj
+    
+    - name: Run tests
+      run: |
+        cd CasoPrueba-GradosGrupos-ClasesHorarios
+        dotnet test --logger "trx;LogFileName=grados_clases.trx" --no-restore --verbosity normal
+    
+    - name: Upload to Testmo
+      if: always()
+      run: |
+        npm install -g @testmo/testmo-cli
+        testmo automation:run:submit \
+          --instance "https://hector-hackerchafa.testmo.net" \
+          --project-id 1 \
+          --name "Grados-Grupos-Clases-${{ github.run_number }}" \
+          --source "GitHub Actions" \
+          --results "CasoPrueba-GradosGrupos-ClasesHorarios/TestResults/grados_clases.trx"
+      env:
+        TESTMO_TOKEN: ${{ secrets.TESTMO_TOKEN }}
+
+  test-profesores:
+    runs-on: windows-latest
+    name: "Caso 4: Profesores y Administradores"
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+    
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: '8.0'
+        
+    - name: Restore dependencies
+      run: dotnet restore CasoPrueba-Profesores-Administradores/ProfesoresAdministradoresTests.csproj
+    
+    - name: Run tests
+      run: |
+        cd CasoPrueba-Profesores-Administradores
+        dotnet test --logger "trx;LogFileName=profesores_admin.trx" --no-restore --verbosity normal
+    
+    - name: Upload to Testmo
+      if: always()
+      run: |
+        npm install -g @testmo/testmo-cli
+        testmo automation:run:submit \
+          --instance "https://hector-hackerchafa.testmo.net" \
+          --project-id 1 \
+          --name "Profesores-Administradores-${{ github.run_number }}" \
+          --source "GitHub Actions" \
+          --results "CasoPrueba-Profesores-Administradores/TestResults/profesores_admin.trx"
+      env:
+        TESTMO_TOKEN: ${{ secrets.TESTMO_TOKEN }}
